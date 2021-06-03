@@ -66,7 +66,7 @@ public class CalculatorIT extends AppiumBase {
                 .enterNumber("3")
                 .equals();
 
-        Assert.assertTrue(result.equals("94"));
+        Assert.assertEquals(result, "94");
     }
 
     @Test(groups={"regression","all"}, dataProvider="additionDataProvider")
@@ -90,7 +90,7 @@ public class CalculatorIT extends AppiumBase {
                 .enterNumber("3")
                 .equals();
 
-        // This test is deliberately failing
-        Assert.assertTrue(result.equals("4"));
+        // This test deliberately fails
+        Assert.assertEquals(result, "4");
     }
 }
