@@ -1,2 +1,2 @@
-# selenium-framework-mobile
-A Selenium mobile framework using Appium.
+# java-framework-mobile
+A (mobile) Java framework for Selenium/Appium, Playwright, and REST-assured.
